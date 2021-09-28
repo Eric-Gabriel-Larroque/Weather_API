@@ -60,12 +60,13 @@ input.addEventListener("keypress", (e) => {
                maxima_amanha_icone,minima_depois_de_amanha,minima_depois_de_amanha_icone,
                maxima_depois_de_amanha,maxima_depois_de_amanha_icone} = climaProps
           
+        body.style = `background:none`;
         condicao === condicoes[0] ? video.src = "video/dia.mp4" :
         condicao === condicoes[1] ? video.src = "video/noite.mp4" : 
         condicoesNublado.includes(condicao) ? video.src = "video/nublado.mp4" :
         condicoesChuva.includes(condicao) ? video.src = "video/chuva.mp4" : 
-        video.src = "video/neve.mp4"
-        body.style = `background:none`;
+        condicoesNeve.includes(condicao) ? video.src = "video/neve.mp4" :
+        body.style = `background: #2c3e50`
         temperatura.innerHTML = `${temp}ºC`;
         navIcon.src = icone;
         nomeDoLugar.innerHTML = `${cidade}, ${
