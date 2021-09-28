@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsivo.css">
+    <script src="condicoes_climaticas.js"></script>
+    <script defer src="main.mjs" type="module"></script>
+    <script
+      src="https://kit.fontawesome.com/8c77e67797.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Wheater API</title>
+  </head>
+  <body>
+    <video preload="auto" autoplay muted loop id="bgvid">
+      <source type="video/mp4" />
+    </video>
+    <nav>
+      <input placeholder="Busca por Cidade" type="text" />
+      <i class="fas fa-search"></i>
+      <span>
+        <span id="temperatura"></span>
+        <img id="nav__icon" src="" alt="" />
+      </span>
+    </nav>
+    <main>
+      <div class="card_cidade">
+        <span class="card_cidade__nome_do_lugar">aaaaaaa</span>
+        <div class="card_cidade__clima">
+          <span class="card_cidade__clima_temp">aaº</span>
+          <div class="card_detalhes">
+            <span class="umidade">a</span>
+            <span class="velocidade_vento">a</span>
+            <span class="sensacao_term">a</span>
+          </div>
+        </div>
+        <span class="card_cidade__clima_descricao">aaaaaaaaaa</span>
+      </div>
+      <div class="card_clima_amanha">
+      </div>
+      <div class="card_clima_depois_de_amanha">
+      </div>
+    </main>
+  </body>
+</html>
