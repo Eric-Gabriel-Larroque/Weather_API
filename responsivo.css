@@ -93,6 +93,15 @@
 }
 
 @media screen and (max-width: 700px) {
+    
+    video {
+        display: none;
+    }
+
+    body {
+        background-color: #2c3e50;
+    }
+    
     img {
         transform: scale(.6);
     }
@@ -129,6 +138,7 @@
 }
 
 @media screen and (max-width: 500px){
+
     .card_cidade__clima {
         flex-direction: column;
         flex-wrap: nowrap;

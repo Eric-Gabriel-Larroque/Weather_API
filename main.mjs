@@ -60,7 +60,7 @@ input.addEventListener("keypress", (e) => {
                maxima_amanha_icone,minima_depois_de_amanha,minima_depois_de_amanha_icone,
                maxima_depois_de_amanha,maxima_depois_de_amanha_icone} = climaProps
           
-        body.style = `background:none`;
+        // body.style = `background:none`;
         condicao === condicoes[0] ? video.src = "video/dia.mp4" :
         condicao === condicoes[1] ? video.src = "video/noite.mp4" : 
         condicoesNublado.includes(condicao) ? video.src = "video/nublado.mp4" :
