@@ -75,6 +75,10 @@
     .minima, .maxima {
         justify-content: flex-start;
     }
+
+    video {
+        display: block;
+    }
 }
 
 @media screen and (max-width:800px){
