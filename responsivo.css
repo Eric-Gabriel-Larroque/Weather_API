@@ -75,9 +75,12 @@
     .minima, .maxima {
         justify-content: flex-start;
     }
-
     video {
-        display: block;
+        display: none;
+    }
+
+    body {
+        background-color: #2c3e50;
     }
 }
 
