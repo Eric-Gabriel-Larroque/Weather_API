@@ -20,7 +20,7 @@ input.addEventListener("keypress", (e) => {
   if (e.key === "Enter") {
     let valorPesquisado = input.value.normalize("NFD").replace(/[\u0300-\u036f]/gi, "") || "Brasil"
     fetch(
-      `http://api.weatherapi.com/v1/forecast.json?key=${key}&q=${valorPesquisado}&aqi=no&days=3&lang=pt`
+      `https://api.weatherapi.com/v1/forecast.json?key=${key}&q=${valorPesquisado}&aqi=no&days=3&lang=pt`
       )
       .then((response) => {
         return response.json();
