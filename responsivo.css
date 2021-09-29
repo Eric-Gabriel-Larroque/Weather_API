@@ -104,6 +104,9 @@
 
 @media screen and (max-width: 650px) {
     
+    input {
+        margin: 0;
+    }
     nav {
         justify-content: center;
     }
@@ -237,24 +240,3 @@
     }
 }
 
-@media screen and (max-height: 538px){
-    .card_cidade__clima_descricao,
-    .card_cidade__nome_do_lugar {
-        font-size: .6rem;
-    }
-    .card_detalhes {
-        height: 110px;
-    }
-    .card_cidade__clima_temp > hr{
-        height: 110px;
-    }
-    .minmax_depois_de_amanha {
-        margin: 0 10px;
-    }
-    .card_clima_depois_de_amanha, .card_clima_amanha {
-        margin-top: 10px;
-    }
-    main {
-        margin-top: 0;
-    }
-}
