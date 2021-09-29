@@ -80,12 +80,12 @@ input.addEventListener("keypress", (e) => {
 
         amanhaNome.innerHTML = `<span id="amanha">${dias_da_semana[amanha]}</span>
                                 <div class="minmax_amanha">
-                                   <span class="minima"> Mínima - 
+                                   <span class="minima"> Mín - 
                                       <span>${minima_amanha}ºC
                                         <img src="${minima_amanha_icone}">
                                       </span>
                                    </span>
-                                   <span  class="maxima"> Máxima - 
+                                   <span  class="maxima"> Máx - 
                                     <span>${maxima_amanha}ºC
                                       <img src="${maxima_amanha_icone}">
                                     </span>
@@ -96,13 +96,13 @@ input.addEventListener("keypress", (e) => {
 
         depoisAmanhaNome.innerHTML = `<span id="amanha">${dias_da_semana[depois_de_amanha]}</span>
                                       <div class="minmax_depois_de_amanha">
-                                        <span class="minima"> Mínima - 
+                                        <span class="minima"> Mín - 
                                         <span>
                                         ${minima_depois_de_amanha}ºC
                                           <img src="${minima_depois_de_amanha_icone}">
                                           </span>
                                         </span>
-                                        <span class="maxima"> Máxima - 
+                                        <span class="maxima"> Máx - 
                                         <span>
                                         ${maxima_depois_de_amanha}ºC
                                           <img src="${maxima_depois_de_amanha_icone}">
