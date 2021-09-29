@@ -12,7 +12,7 @@ O projeto mostra os dados na interface através da requisição e tratamento de 
 
 ## Rodando em seu computador:
 
-Bem, você pode, com o [Git](https://git-scm.com/), isnerir o seguinte comando:
+Bem, você pode, com o [Git](https://git-scm.com/), inserir o seguinte comando:
 
 ```bash
     $git clone https://github.com/Eric-Gabriel-Larroque/Weather_API.git 
