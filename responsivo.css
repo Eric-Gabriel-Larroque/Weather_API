@@ -1,185 +1,260 @@
-@media screen and (max-width:1350px) {
-    .card_clima_amanha, .card_clima_depois_de_amanha {
-        margin-right: 80px;
-    }
-}
-
-@media  screen and (max-width: 1330px) {
-    .minmax_amanha, .minmax_depois_de_amanha {
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    .card_clima_amanha, .card_clima_depois_de_amanha {
-        width:300px;
-        height: 470px;
-        margin-top: 0;
-        margin-right: 0;
-    }
-}
-
-@media screen and (max-width: 1250px) {
-    main {
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-}
-
-@media screen and (max-width: 1200px){
-
-    nav {
-        position: fixed;
-        top:0;
-        left: 0;
-        width:100%;
-        margin:0;
-    }
-    body {
-        margin: 0;
-    }
-    main {
-        height: 100vh;
-        margin-top:100px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .card_cidade {
-        width: 95%;
-        height: 300px;
+@media screen and (max-width:1800px) {
+    .minima, .maxima {
+        font-size: 4vh;
     }
     .card_cidade__nome_do_lugar {
-    width: 98%;
+        font-size: 4vh;
     }
-    .card_cidade__clima {
-        justify-content: center;
-        height: 200px;
+    .card_cidade__clima_descricao {
+        font-size: 4vh;
     }
-    .card_clima_amanha, .card_clima_depois_de_amanha {
-        margin-top: -100px;
-        margin-left: 30px;
-        width: 95%;
-        height: 120px;
-        margin-bottom:0;
+}
+@media screen and (max-width:1700px) {
+    .minima, .maxima {
+        font-size: 3.5vh;
     }
-    .minmax_amanha, .minmax_depois_de_amanha {
+    .card_cidade__nome_do_lugar {
+        font-size: 3vh;
+    }
+    .card_cidade__clima_descricao {
+        font-size: 3vh;
+    }
+}
+@media screen and (max-width:1500px) {
+    .minima, .maxima {
+        font-size: 3vh;
+    }
+}
+
+@media screen and (max-width:1350px) {
+
+
+    main {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    input {
+        width: 400px;
         height: 50px;
     }
     .minima, .maxima {
-        justify-content: space-evenly;
+        justify-content: center;
+    }
+    .card_cidade {
+        margin-top: 20px;
+        margin-left:0;
     }
 
+    .card_cidade, .card_clima_amanha,
+     .card_clima_depois_de_amanha {
+        width: 90vw;
+        margin-left: 0;
+    }
+
+    .card_clima_amanha,.card_clima_depois_de_amanha {
+        height: 20vh;
+        margin-top: 40px;
+        margin-bottom: 0;
+    }
 }
 
 @media screen and (max-width: 1050px){
-    .minima, .maxima {
-        justify-content: flex-start;
-    }
     video {
         display: none;
     }
-
     body {
-        background: #2c3e50;
+        background: #34495e;
     }
 }
 
-@media screen and (max-width:800px){
-    :root {
-        font-size: .9rem;
-    }
-    img {
-        transform: scale(.8);
+@media screen and (max-width:900px) {
+
+    main {
+        justify-content: space-between;
     }
     nav {
+        display: flex;
         justify-content: flex-start;
     }
     input {
-        margin-left: 10px;
+        margin-left: 20px;
     }
 }
 
-@media screen and (max-width: 700px) {
+
+@media screen and (max-width: 830px) {
+    .minima,.maxima {
+        font-size: 2.5vh;
+    }
+    .minima > span > img, .maxima > span > img {
+        transform: scale(.8);
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .minima,.maxima {
+        font-size: 2vh;
+    }
+    .minima > span > img, .maxima > span > img {
+        transform: scale(.7);
+    }
+}
+
+@media screen and (max-width: 650px) {
     
-    img {
-        transform: scale(.6);
+    nav {
+        justify-content: center;
     }
-    .minmax_amanha,.minmax_depois_de_amanha {
-        flex-direction: row;
+    nav > span {
+        display: none;
+    }
+    main {
+        height: 100vh;
         justify-content: flex-start;
-    }
-    .minima, .maxima {
-        width: 100%;
     }
 
     .card_cidade {
-        margin: 0;
+        height: 35vh
+    }
+
+    .minima,.maxima {
+        font-size: 1.7vh;
+    }
+    .minima > span > img, .maxima > span > img {
+        transform: scale(.5);
+    }
+
+    .minima > span, .maxima > span {
+        margin-left: 5px;
     }
 
     .umidade, .velocidade_vento, .sensacao_term {
         justify-content: flex-start;
+        font-size: 1.6vh;
     }
 
-    #umidade, #vento, #sensacao_term {
-        margin:0;
+    .sensacao_term > span > img {
+        display: none;
     }
-    .fa-tint { 
-        margin: 0
-    }
-    .card_clima_amanha, .card_clima_depois_de_amanha {
+    #vento {
         margin: 0;
-        height: 150px;
-    }
-
-    input {
-        width: 300px;
     }
 }
 
-@media screen and (max-width: 500px){
-
+@media screen and (max-width:550px){
+  
     .card_cidade__clima {
-        flex-direction: column;
-        flex-wrap: nowrap;
-        align-items: center;
+        justify-content: flex-start;
     }
-    .card_cidade__clima_temp > hr {
-       display: none;
+    .umidade,.sensacao_term, .velocidade_vento {
+        justify-content: flex-start;
+    }
+    .card_cidade__clima_temp {
+        display: inline;
     }
     .card_detalhes {
-        width: 100%;
-        margin-left: 10px;;
+        height: 180px;
+        width:180px;
     }
-    .card_cidade__clima_descricao {
-        margin:0;
-        padding: 15px;
-        font-size: 1rem;
+    .card_cidade__clima_temp {
+        display: flex;
+        align-items: center;
     }
-    .card_cidade__nome_do_lugar {
-        margin-bottom: 10px;
-        font-size: 1.4rem;
-    }
-
-    input {
-        width: 210px;
-    }
-    #nav__icon {
-        display: none;
-    }
-    #amanha,.minima, .maxima{
-        font-size: 1.5rem;
+    .card_cidade__clima_temp > span{
+        font-size: 8rem;
     }
 }
 
-@media screen and (max-width: 450px) {
-    nav > span {
-        display: none;
+@media screen and (max-width: 480px) {
+    .card_cidade__clima_temp > span{
+        font-size: 6rem;
     }
-    nav {
+    .card_cidade__clima_temp > hr {
+        height: 140px;
+    }
+    
+    .card_detalhes {
+        height:140px;
+        width: 160px;
+    }
+    .card_cidade__nome_do_lugar,.card_cidade__clima_descricao {
+        font-size: 2.5vh;
+    }
+    .minima, .maxima {
+        margin: 0 5px;
+        width: auto;
+    }
+    .minmax_amanha, .minmax_depois_de_amanha {
         justify-content: center;
     }
-    .sensacao_term,.velocidade_vento, .umidade {
-        height: 20px;
+    input {
+        width: 280px;
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 440px) {
+
+    #amanha {
+        font-size: 3.5vh;
+    }
+    .umidade, .sensacao_term, .velocidade_vento {
+        font-size: .8rem;
+        width: auto;
+    }
+
+    .card_cidade__clima_descricao {
+        font-size: 1.2rem;
+    }
+    .card_cidade__nome_do_lugar {
+        font-size: 1.3rem;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .maxima, .minima {
+        font-size: .9rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .card_cidade__clima_temp > span{
+        font-size: 4.2rem;
+    }
+    .umidade, .velocidade_vento, .sensacao_term {
         font-size: .6rem;
+    }
+    input {
+        width:230px;
+    }
+    
+    .card_cidade__clima_descricao,
+    .card_cidade__nome_do_lugar {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-height: 538px){
+    .card_cidade__clima_descricao,
+    .card_cidade__nome_do_lugar {
+        font-size: .6rem;
+    }
+    .card_detalhes {
+        height: 110px;
+    }
+    .card_cidade__clima_temp > hr{
+        height: 110px;
+    }
+    .minmax_depois_de_amanha {
+        margin: 0 10px;
+    }
+    .card_clima_depois_de_amanha, .card_clima_amanha {
+        margin-top: 10px;
+    }
+    main {
+        margin-top: 0;
     }
 }
