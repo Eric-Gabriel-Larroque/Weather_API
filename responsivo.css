@@ -14,7 +14,7 @@
         font-size: 3.5vh;
     }
     .card_cidade__nome_do_lugar {
-        font-size: 3vh;
+        font-size: 4vh;
     }
     .card_cidade__clima_descricao {
         font-size: 3vh;
@@ -237,6 +237,27 @@
     .card_cidade__clima_descricao,
     .card_cidade__nome_do_lugar {
         font-size: 1rem;
+    }
+}
+
+@media screen and (max-height: 524px) {
+    .card_cidade__clima_temp > span{
+        font-size: 4rem;
+    }
+    .card_cidade__clima_temp > hr {
+        height: 100px;
+    }
+    .card_detalhes {
+        justify-content: center;
+        height: 100px;
+    }
+    .card_cidade__nome_do_lugar {
+        font-size: 1.4rem;
+    }
+    .card_cidade__clima_descricao{
+        margin: 0;
+        display: inline;
+        padding: 10px;
     }
 }
 
