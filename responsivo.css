@@ -61,12 +61,12 @@
 }
 
 @media screen and (max-width: 1050px){
-    /* video {
+    video {
         display: none;
     }
     body {
         background: #34495e;
-    } */
+    }
 }
 
 @media screen and (max-width:900px) {
