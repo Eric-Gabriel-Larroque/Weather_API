@@ -17,13 +17,13 @@ height: 20px;
 input {
     color: white;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.3rem;
+    font-size: 3.3vh;
     display: flex;
     justify-content: center;
     text-align: center;
     outline: none;
-    height:35px;
-    width: 400px;
+    height:5.6vh;
+    width:  29.28vw;
     border-radius: 25px;
     border:none;
     background-color: rgba(203, 206, 205,.5);
@@ -49,7 +49,6 @@ nav {
 video {
     position: fixed;
     z-index:-1;
-    /* display:inline; */
 }
 
 body {
@@ -60,8 +59,9 @@ body {
 main {
     margin-top: 20px;
     display: flex;
-    align-items: flex-start;
-    height:84vh;
+    align-items: center;
+    justify-content: center;
+    height:80vh;
     width:100vw;
     flex-direction: column;
     flex-wrap: wrap;
@@ -89,8 +89,8 @@ nav > span {
     display: none;
     flex-direction: column;
     justify-content: space-between;
-    height: 470px;
-    width:500px;
+    height: 75.2vh;
+    width:36.6vw;
     background-color:rgba(86, 129, 221, 0.2);    
     margin-left: 30px;
     border-radius: 5px;
@@ -103,12 +103,13 @@ nav > span {
     text-align: center;
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.8rem;
+    font-size: 4.608vh;
     color:rgb(255, 255, 255);
 }
 
 .card_cidade__clima {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     width: 100%;
 }
@@ -129,7 +130,7 @@ nav > span {
     margin-bottom: 5px;
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.8rem;
+    font-size: 4.608vh;
     color:rgb(255, 255, 255);
 }
 
@@ -150,7 +151,7 @@ hr {
 
 .umidade, .velocidade_vento, .sensacao_term {
     font-family: 'Open Sans', sans-serif;
-    font-size: .8rem;
+    font-size: 2.08vh;
     font-weight: bold;
     color: white;
     display: flex;
@@ -192,8 +193,9 @@ hr {
 .card_clima_amanha, .card_clima_depois_de_amanha {
     display: none;
     flex-direction: column;
-    height: 205px;
-    width: 750px;
+    height: 32.8vh;
+    
+    width: 54.9vw;
     margin-left: 20px;
     border-radius: 5px;
     background-color:rgba(86, 129, 221, 0.2);    
@@ -211,13 +213,13 @@ hr {
     height:40px;
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.8rem;
+    font-size: 4.608vh;
     color:rgb(255, 255, 255);
 }
 
 .minmax_amanha, .minmax_depois_de_amanha {
     display: flex;
-    height: 160px;
+    height: 100%;
     width:100%;
 }
 
@@ -225,7 +227,7 @@ hr {
 .maxima, .minima {
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.8rem;
+    font-size: 4.6vh;
     color:rgb(255, 255, 255);
     margin: 0 20px;
     display: flex;
