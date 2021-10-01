@@ -31,4 +31,8 @@ ou, se quiser apenas utilizar a título de curiosidade sem precisar baixar algum
 - Vídeos de background providos por [Videezy](https://www.videezy.com/)
 - ícone de busca de [Freepik](https://br.freepik.com/)
 
+## Licença:
+
+[MIT](https://opensource.org/licenses/MIT)
+
 
