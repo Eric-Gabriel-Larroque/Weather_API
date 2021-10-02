@@ -67,6 +67,8 @@ input.addEventListener("keypress", (e) => {
         condicoesChuva.includes(condicao) ? video.src = "video/chuva.mp4" : 
         condicoesNeve.includes(condicao) ? video.src = "video/neve.mp4" :
         body.style = `background: #2c3e50`
+
+        video.play()
         temperatura.innerHTML = `${temp}ºC`;
         navIcon.src = icone;
         nomeDoLugar.innerHTML = `${cidade}, ${
