@@ -1,4 +1,4 @@
-import {key} from './key.mjs'
+const key = 'ab7a1914ea2f4f4bbd0200123212509'
 let body = document.querySelector("body");
 let input = document.querySelector("input");
 let navIcon = document.querySelector("#nav__icon");
